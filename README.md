@@ -65,17 +65,7 @@ python mean.py
 ## Pretrained Model Weights
 We provide the pretrained weights of the main task model: best_main_model.pt
 
-## Dataset
-1.Main Task Dataset
-This repository provides the dataset for the main ncRNA coding potential prediction task used in this study.  
-The dataset consists of human ncRNA sequences with positive and negative labels and is organized into training, validation, and test subsets.
-Positive samples were curated from experimentally validated ncRNA-encoded peptides, while negative samples were derived from high-confidence noncoding lncRNAs after redundancy removal and quality control.  
-This dataset is used for model training, hyperparameter tuning, and internal evaluation.
-
-2.External Validation and Cross-species Datasets
-The external validation dataset and cross-species evaluation datasets (mouse and rat) are not publicly released at this stage and will be made available upon publication of the paper.
-
-3.Public Benchmark Dataset
+## Public Benchmark Dataset
 The public benchmark dataset used for comparison is adopted from **CPPred**.  
 Please download the dataset directly from the official CPPred website:
 http://www.rnabinding.com/CPPred/
